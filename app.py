@@ -23,4 +23,4 @@ def getMember(name):
     return render_template('test.html', name=name, url_gif=r["data"]["id"])
  
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
+    app.run()
