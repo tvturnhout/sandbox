@@ -1,5 +1,7 @@
 nginx:
-    build: .
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: ./
     ports:
       - "80:80"
     volumes:
